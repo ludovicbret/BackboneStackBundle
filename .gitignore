@@ -1,0 +1,8 @@
+.git
+
+*~
+
+#DevApp files
+*.sublime-project
+*.sublime-workspace
+.DS_Store
