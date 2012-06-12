@@ -1,0 +1,58 @@
+{
+    "name": "lb/backbone-stack",
+    "type": "symfony-bundle",
+    "description": "Backbone stack for Symfony2",
+    "keywords": ["backbone", "form", "utils", "js"],
+    "license": "MIT",
+    "version": "master",
+    "authors": [
+        {
+            "name": "Ludovic Bret",
+            "email": "bretludovic@googlemail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Lb\\Bundle\\BackboneStackBundle": ""
+        }
+    },
+    "target-dir": "Lb/Bundle/BackboneStackBundle",
+    "require": {
+        "symfony/symfony": "2.1.*",
+        "mopa/composer-bridge": "dev-master"
+    },
+    "suggest":  {
+        "twitter/bootstrap": "2.0.*"
+    },
+    "require": {
+        "symfony/symfony": "2.1.*",
+        "mopa/composer-bridge": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "version": "dev-master",
+                "name": "powmedia/backbone-forms",
+                "source": {
+                    "url": "https://github.com/powmedia/backbone-forms.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
+    "scripts": {
+        "post-install-cmd": [
+            "Mopa\\Bundle\\BootstrapBundle\\Composer\\ScriptHandler::postInstallSymlinkTwitterBootstrap"
+        ],
+        "post-update-cmd": [
+            "Mopa\\Bundle\\BootstrapBundle\\Composer\\ScriptHandler::postInstallSymlinkTwitterBootstrap"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.1.x-dev"
+        }
+    }
+}
