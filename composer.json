@@ -45,7 +45,7 @@
                     "reference": "master"
                 }
             }
-        }
+        },
         {
             "type": "vcs",
             "url" : "https://github.com/documentcloud/backbone.git"
