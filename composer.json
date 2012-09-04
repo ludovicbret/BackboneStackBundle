@@ -21,7 +21,7 @@
         "symfony/symfony"          : "2.1.*",
         "mopa/composer-bridge"     : "dev-master",
         "hearsay/require-js-bundle": "dev-master",
-        "douglascrockford/json-js" : "dev-master",
+        "douglascrockford/JSON-js" : "dev-master",
         "documentcloud/underscore" : "dev-master",
         "documentcloud/backbone"   : "dev-master"
     },
@@ -70,7 +70,7 @@
             "type"   : "package",
             "package": {
                 "version": "dev-master",
-                "name"   : "douglascrockford/json-js",
+                "name"   : "douglascrockford/JSON-js",
                 "source" : {
                     "url"      : "https://github.com/douglascrockford/JSON-js.git",
                     "type"     : "git",
