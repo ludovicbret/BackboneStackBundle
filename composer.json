@@ -21,9 +21,9 @@
         "symfony/symfony"          : "2.1.*",
         "mopa/composer-bridge"     : "dev-master",
         "hearsay/require-js-bundle": "dev-master",
-        "documentcloud/underscore" : "*",
-        "documentcloud/backbone"   : "*",
-        "douglascrockford/JSON-js" : "*"
+        "documentcloud/underscore" : "dev-master",
+        "documentcloud/backbone"   : "dev-master",
+        "douglascrockford/JSON-js" : "dev-master"
     },
     "suggest":  {
         "twitter/bootstrap"                : "2.0.*",
@@ -35,15 +35,27 @@
             "url" : "https://github.com/powmedia/backbone-forms.git"            
         },
         {
-            "type": "git",
-            "url" : "https://github.com/documentcloud/underscore.git"
+            "type": "package",
+            "package": {
+                "version": "dev-master",
+                "name": "documentcloud/underscore",
+                "source": {
+                    "url" : "https://github.com/documentcloud/underscore.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "dist": {
+                    "url": "https://github.com/documentcloud/underscore/zipball/master",
+                    "type": "zip"
+                }
+            }
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url" : "https://github.com/documentcloud/backbone.git"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url" : "https://github.com/douglascrockford/JSON-js.git"
         }
     ],
