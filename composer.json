@@ -31,40 +31,16 @@
     },
     "repositories": [
         {
-            "type"   : "package",
-            "package": {
-                "version": "dev-master",
-                "name"   : "powmedia/backbone-forms",
-                "source" : {
-                    "url"      : "https://github.com/powmedia/backbone-forms.git",
-                    "type"     : "git",
-                    "reference": "master"
-                }
-            }
+            "type": "vcs",
+            "url" : "https://github.com/powmedia/backbone-forms.git"            
         },
         {
-            "type"   : "package",
-            "package": {
-                "version": "dev-master",
-                "name"   : "documentcloud/backbone",
-                "source" : {
-                    "url"      : "https://github.com/documentcloud/backbone.git",
-                    "type"     : "git",
-                    "reference": "master"
-                }
-            }
+            "type": "vcs",
+            "url" : "https://github.com/documentcloud/backbone.git"
         },
         {
-            "type"   : "package",
-            "package": {
-                "version": "dev-master",
-                "name"   : "documentcloud/underscore",
-                "source" : {
-                    "url"      : "https://github.com/documentcloud/underscore.git",
-                    "type"     : "git",
-                    "reference": "master"
-                }
-            }
+            "type": "vcs",
+            "url" : "https://github.com/documentcloud/underscore.git"
         },
         {
             "type": "vcs",
