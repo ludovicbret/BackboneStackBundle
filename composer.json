@@ -20,7 +20,7 @@
     "require"   : {
         "symfony/symfony"          : "2.1.*",
         "mopa/composer-bridge"     : "dev-master",
-        "hearsay/require-js-bundle": "dev-master",
+        "hearsay/require-js-bundle": "dev-master"
     },
     "suggest":  {
         "twitter/bootstrap"                : "dev-master",
