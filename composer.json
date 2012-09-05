@@ -57,14 +57,14 @@
             "url" : "https://github.com/douglascrockford/JSON-js.git"
         }
     ],
-    "scripts": {
-        "post-install-cmd": [
-            "Mopa\\Bundle\\BootstrapBundle\\Composer\\ScriptHandler::postInstallSymlinkTwitterBootstrap"
-        ],
-        "post-update-cmd": [
-            "Mopa\\Bundle\\BootstrapBundle\\Composer\\ScriptHandler::postInstallSymlinkTwitterBootstrap"
-        ]
-    },
+    // "scripts": {
+    //     "post-install-cmd": [
+    //         "Mopa\\Bundle\\BootstrapBundle\\Composer\\ScriptHandler::postInstallSymlinkTwitterBootstrap"
+    //     ],
+    //     "post-update-cmd": [
+    //         "Mopa\\Bundle\\BootstrapBundle\\Composer\\ScriptHandler::postInstallSymlinkTwitterBootstrap"
+    //     ]
+    // },
     "extra": {
         "branch-alias": {
             "dev-master": "2.1.x-dev"
