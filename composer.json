@@ -21,13 +21,29 @@
         "symfony/symfony"          : "2.1.*",
         "mopa/composer-bridge"     : "dev-master",
         "hearsay/require-js-bundle": "dev-master",
-        "documentcloud/underscore" : "dev-master"
+        "twitter/bootstrap": "*"
     },
     "suggest":  {
         "twitter/bootstrap"                : "2.0.*",
         "friendsofsymfony/jsrouting-bundle": "dev-master"
     },
     "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "twitter/bootstrap",
+                "version": "master",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/twitter/bootstrap/zipball/master"
+                },
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/twitter/bootstrap.git",
+                    "reference": "master"
+                }
+            }
+        },
         {
             "type": "vcs",
             "url" : "https://github.com/powmedia/backbone-forms.git"            
