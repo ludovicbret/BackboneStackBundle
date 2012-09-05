@@ -37,11 +37,6 @@
             "package": {
                 "version": "dev-master",
                 "name": "documentcloud/underscore",
-                "source": {
-                    "url" : "https://github.com/documentcloud/underscore.git",
-                    "type": "file",
-                    "reference": "master"
-                },
                 "dist": {
                     "url": "https://github.com/documentcloud/underscore/zipball/master",
                     "type": "zip"
