@@ -18,67 +18,20 @@
     },
     "target-dir": "Lb/BackboneStackBundle",
     "require"   : {
-        "symfony/symfony"          : "2.1.*",
-        "mopa/composer-bridge"     : "dev-master",
-        "hearsay/require-js-bundle": "dev-master"
+        "symfony/symfony"                  : "2.1.*",
+        "mopa/bootstrap-bundle"            : "dev-master",
+        "mopa/composer-bridge"             : "dev-master",
+        "hearsay/require-js-bundle"        : "dev-master",
+        "friendsofsymfony/jsrouting-bundle": "dev-master"
     },
     "suggest":  {
         "twitter/bootstrap"                : "dev-master",
         "documentcloud/underscore"         : "dev-master",
         "documentcloud/backbone"           : "dev-master",
         "douglascrockford/JSON-js"         : "dev-master",
-        "friendsofsymfony/jsrouting-bundle": "dev-master",
         "powmedia/backbone-forms"          : "dev-master"
     },
     "repositories": [
-        {
-            "type"   : "package",
-            "package": {
-                "version": "dev-master",
-                "name"   : "documentcloud/backbone",
-                "source" : {
-                    "url"      : "https://github.com/documentcloud/backbone.git",
-                    "type"     : "git",
-                    "reference": "master"
-                }
-            }
-        },
-        {
-            "type"   : "package",
-            "package": {
-                "version": "dev-master",
-                "name"   : "documentcloud/underscore",
-                "source" : {
-                    "url"      : "https://github.com/documentcloud/underscore.git",
-                    "type"     : "git",
-                    "reference": "master"
-                }
-            }
-        },
-        {
-            "type"   : "package",
-            "package": {
-                "version": "dev-master",
-                "name"   : "douglascrockford/JSON-js",
-                "source" : {
-                    "url"      : "https://github.com/douglascrockford/JSON-js.git",
-                    "type"     : "git",
-                    "reference": "master"
-                }
-            }
-        },
-        {
-            "type"   : "package",
-            "package": {
-                "version": "dev-master",
-                "name"   : "powmedia/backbone-forms",
-                "source" : {
-                    "url"      : "https://github.com/powmedia/backbone-forms.git",
-                    "type"     : "git",
-                    "reference": "master"
-                }
-            }
-        },
         {
             "type"   : "package",
             "package": {
@@ -89,22 +42,6 @@
                     "type"     : "git",
                     "reference": "master"
                 }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-                "version": "dev-master",
-                "name": "twitter/bootstrap",
-                "source": {
-                    "url": "https://github.com/twitter/bootstrap.git",
-                    "type": "git",
-                    "reference": "master"
-                },
-                "dist": {
-                    "url": "https://github.com/twitter/bootstrap/zipball/master",
-                    "type": "zip"
-                 }
             }
         }
     ],

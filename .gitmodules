@@ -1,0 +1,15 @@
+[submodule "Resources/js/backbone-forms"]
+	path = Resources/js/backbone-forms
+	url = https://github.com/powmedia/backbone-forms.git
+[submodule "Resources/js/backbone"]
+	path = Resources/js/backbone
+	url = https://github.com/documentcloud/backbone.git
+[submodule "Resources/js/underscore"]
+	path = Resources/js/underscore
+	url = https://github.com/documentcloud/underscore.git
+[submodule "Resources/js/json-js"]
+	path = Resources/js/json-js
+	url = https://github.com/douglascrockford/JSON-js.git
+[submodule "Resources/js/require"]
+	path = Resources/js/require
+	url = https://github.com/jrburke/requirejs.git
