@@ -21,7 +21,7 @@
         "symfony/symfony"                  : "2.1.*",
         "mopa/bootstrap-bundle"            : "dev-master",
         "mopa/composer-bridge"             : "dev-master",
-        "hearsay/require-js-bundle"        : "dev-master",
+        "hearsay/require-js2-bundle"       : "dev-master",
         "friendsofsymfony/jsrouting-bundle": "dev-master"
     },
     "suggest":  {
@@ -43,6 +43,10 @@
                     "reference": "master"
                 }
             }
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ludovicbret/RequireJS2Bundle.git"
         }
     ],
     "scripts": {
